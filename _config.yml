@@ -1,6 +1,7 @@
 exclude:
   - node_modules
-  jobs:
+
+jobs:
   syntax-check:
     runs-on: ubuntu-latest
     steps:
@@ -9,6 +10,6 @@ exclude:
         run: |
           gem install liquid
           liquid parse frontend/node_modules/balanced-match/README.md
-          plugins:
-  - jekyll-feed
 
+plugins:
+  - jekyll-feed
