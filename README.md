@@ -30,7 +30,7 @@ PMO-SPEECH-SYNTHESIS/
 ├── frontend/ # Angular app (UI)
 ├── backend/ # FastAPI server (API + summarization)
 ├── crawler/ # Web scraper scripts
-├── database/ # SQL schema and setup
+├── database/ # SQLlite schema and setup
 ├── .nojekyll # Disables Jekyll for GitHub Pages
 ├── README.md # Project documentation
 └── requirements.txt # Python backend dependencies
