@@ -1,4 +1,5 @@
-# 🇮🇳 PMO Speech Synthesis (Text-Only AI Project)
+ -ReadMe- 
+ # 🇮🇳 PMO Speech Synthesis (Text-Only AI Project)
 
 A full-stack AI-powered platform that **automatically collects**, **summarizes**, and **presents Prime Minister of India's speeches** in a simplified, readable text format. Designed for students, researchers, and the general public, this tool uses Python, Angular, FastAPI, and MySQL to make public speeches more accessible.
 
