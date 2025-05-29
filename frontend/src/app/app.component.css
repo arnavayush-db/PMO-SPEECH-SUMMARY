@@ -1,0 +1,11 @@
+/* Component-specific styles for app.component */
+:host {
+    display: block; /* Ensure the component takes up space */
+  }
+  
+  /* Optional: Add custom styles if needed */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
