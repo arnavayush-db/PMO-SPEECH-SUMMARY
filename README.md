@@ -1,20 +1,70 @@
-# PMO-SPEECH-SUMMARY
-The PMO Speech Synthesis project is an AI-powered application designed to automate the process of collecting, summarizing, and converting the Prime Minister of India's public speeches into human-like synthesized speech.
+# 🇮🇳 PMO Speech Synthesis (Text-Only AI Project)
+
+A full-stack AI-powered platform that **automatically collects**, **summarizes**, and **presents Prime Minister of India's speeches** in a simplified, readable text format. Designed for students, researchers, and the general public, this tool uses Python, Angular, FastAPI, and MySQL to make public speeches more accessible.
+
+> ❗ **Note**: This project **does not include audio or speech playback** — only **text-based summarization**.
+
+---
+
+## 📌 Features
+
+- 🕸️ **Web Scraping**: Fetches PM speeches from official government sources.
+- 🤖 **AI Summarization**: Uses LLMs like GPT or Grok to generate short summaries.
+- 🧑‍💻 **Frontend UI**: Built with Angular for a clean and responsive interface.
+- ⚙️ **Backend API**: Powered by FastAPI to handle data and logic.
+- 🗃️ **MySQL Database**: Stores full and summarized texts with metadata.
+- 🚀 **Deployment Ready**: Compatible with GitHub Pages (frontend).
+
+---
+
+## 🧠 Why This Project?
+
+PM speeches often contain dense and formal language. Citizens and students may find it hard to digest. This platform simplifies those speeches by summarizing key points, improving understanding, and promoting transparency.
+
+---
+
+## 🧩 Project Structure
+
 PMO-SPEECH-SYNTHESIS/
 │
-├── frontend/              # User interface (HTML/CSS/JS or Angular)
-├── backend/               # FastAPI backend server
-├── database/              # MySQL scripts and DB config
-├── crawler/               # Web crawler for scraping speech data
-├── synthesizer/           # AI voice synthesis logic
-├── summaries/             # Auto-generated summaries
-├── .nojekyll              # Disables Jekyll on GitHub Pages
-└── README.md              # Project documentation
+├── frontend/ # Angular app (UI)
+├── backend/ # FastAPI server (API + summarization)
+├── crawler/ # Web scraper scripts
+├── database/ # SQL schema and setup
+├── .nojekyll # Disables Jekyll for GitHub Pages
+├── README.md # Project documentation
+└── requirements.txt # Python backend dependencies
+
+---
+
+## 🛠️ Technologies Used
+
+| Layer       | Tools & Languages                        |
+|-------------|------------------------------------------|
+| Frontend    | Angular, TypeScript, HTML, CSS           |
+| Backend     | Python, FastAPI                          |
+| Database    | MySQL                                    |
+| Scraping    | BeautifulSoup, requests                  |
+| AI/NLP      | OpenAI GPT / Grok LLM (for summaries)    |
+| Hosting     | GitHub Pages (frontend only)             |
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### 1️⃣ Clone the Repository
+
 git clone https://github.com/arnavayush-db/PMO-SPEECH-SYNTHESIS.git
 cd PMO-SPEECH-SYNTHESIS
 cd backend
 pip install -r requirements.txt
-cd frontend
+uvicorn main:app --reload
+cd .\frontend\
 npm install
 ng serve
- Then open your browser at:http://localhost:4200
+
+--Arnav Ayush--
+Final Year BCA Student
+RKDF University, Ranchi
+GitHub: arnavayush-db
+
