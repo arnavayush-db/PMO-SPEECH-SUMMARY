@@ -63,7 +63,8 @@ cd .\frontend\
 npm install
 ng serve
 Visit http://localhost:4200 to view the app. in any Search Engine 
-![image alt](https://github.com/arnavayush-db/PMO-SPEECH-SUMMARY/blob/98c5c0262db68f4389411a7a813a59a46149c5f2/Screenshot%202025-05-22%20150033.png)
+![Screenshot 2025-05-22 150033](https://github.com/user-attachments/assets/f1c04e99-8011-4b0a-be23-3e7995715f05)
+
 
 --Arnav Ayush--
 Final Year BCA Student
