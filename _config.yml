@@ -1,2 +1,11 @@
 exclude:
   - node_modules
+  jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate Liquid Syntax
+        run: |
+          gem install liquid
+          liquid parse frontend/node_modules/balanced-match/README.md
