@@ -62,6 +62,7 @@ uvicorn main:app --reload
 cd .\frontend\
 npm install
 ng serve
+Visit http://localhost:4200 to view the app. in any Search Engine 
 
 --Arnav Ayush--
 Final Year BCA Student
