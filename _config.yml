@@ -1,5 +1,6 @@
 exclude:
   - node_modules
+  - frontend/node_modules
 
 jobs:
   syntax-check:
